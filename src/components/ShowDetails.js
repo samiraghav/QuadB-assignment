@@ -19,7 +19,7 @@ const ShowDetails = ({ show, onBack, onBookTicket }) => {
     <div className="show-details">
       <img
         className="image-style"
-        src={image?.medium ?? "/placeholder.png"}
+        src={image?.medium}
         alt={name}
       />
       <div>
